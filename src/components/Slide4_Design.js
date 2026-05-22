@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import phoneBlueImg from '../../public/phoneblue.png';
 
 export default function Slide4_Design() {
   const steps = [
@@ -51,7 +52,7 @@ export default function Slide4_Design() {
             */}
             <div className="absolute inset-0 scale-[1.18] flex items-center justify-center">
               <Image 
-                src="/phoneblue.png" 
+                src={phoneBlueImg} 
                 alt="Campus Library App Real-time Seat Map Interface"
                 fill
                 priority
