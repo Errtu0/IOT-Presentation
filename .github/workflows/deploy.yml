@@ -32,8 +32,9 @@ jobs:
         with:
           static_site_generator: next
 
+      # CHANGED THIS LINE FROM 'npm ci' TO 'npm install' TO BYPASS THE LOCKFILE ERROR
       - name: Install Project Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Compile and Export Static Next.js Distribution
         run: npm run build
