@@ -17,8 +17,8 @@ export default function Home() {
       <div className="slide-section"><Slide3_Tech /></div>
       <div className="slide-section"><Slide4_Design /></div>
       <div className="slide-section"><Slide5_New /></div>
+      <div className="slide-section"><Slide7_Flow /></div> 
       <div className="slide-section"><Slide6_Sec /></div>
-      <div className="slide-section"><Slide7_Flow /></div>       {/* Render Slide 7 */}
       <div className="slide-section"><Slide8_Conclusion /></div> {/* Render Slide 8 */}
     </main>
   );
